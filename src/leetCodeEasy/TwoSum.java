@@ -1,4 +1,4 @@
-package runtime;
+package leetCodeEasy;
 
 import java.util.HashMap;
 

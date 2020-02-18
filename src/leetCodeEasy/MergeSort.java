@@ -1,4 +1,4 @@
-package runtime;
+package leetCodeEasy;
 
 public class MergeSort {
 	void merge(int arr[], int l, int m, int r) 

@@ -1,4 +1,4 @@
-package runtime;
+package leetCodeEasy;
 
 public class RuntimeTest {
 	public static void main(String[] args) 
