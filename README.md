@@ -13,6 +13,8 @@
 8. Plus One
 9. Relative Array
 10.Two sum
+11. Last word length in string
+12. User based basic operations
 
 ---------------------------
 *  Sorting
