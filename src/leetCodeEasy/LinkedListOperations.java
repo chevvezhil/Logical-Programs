@@ -9,8 +9,6 @@ package leetCodeEasy;
 	}
 }
 
-
-
 public class LinkedListOperations {
 	
 	ListNode  head;
@@ -51,7 +49,6 @@ public class LinkedListOperations {
 		
 		while(temp !=null && temp.next !=null) {
 			
-			System.out.println();
 			if(temp.val == temp.next.val) 
 				temp.next =temp.next.next;
 			else
