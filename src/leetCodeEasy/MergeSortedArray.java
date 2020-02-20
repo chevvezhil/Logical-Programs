@@ -1,10 +1,14 @@
 package leetCodeEasy;
 
+import java.util.Arrays;
+
 public class MergeSortedArray {
 
 	public static void main(String[] args) {
 		int[] nums1 = new int[6];
 		int[] nums2= new int[] {4,5,6};
+	
+		
 		int m=3;
 		int n =3;
 		
@@ -12,11 +16,20 @@ public class MergeSortedArray {
 		nums1[1] = 2;
 		nums1[2] = 3;
 		
-		/*
-		 * for(int i=m;i<=nums1.length-1;i++) {
-		 * 
-		 * for(int ) nums[i] =nums2[n] }
-		 */
+		int len = nums2.length;
+		
+		for(int i=3;i<nums1.length;i++) {
+			
+			nums1[i] =nums2[len-1];
+			len--;
+			
+		}
+		Arrays.sort(nums1);
+		
+		for(int i=0;i<nums1.length;i++) {
+			System.out.println(nums1[i]);
+		}
+		
 	}
 	
 }
