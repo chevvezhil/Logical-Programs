@@ -6,6 +6,7 @@ public class SeiveOfEratosthenLinearTimeComplexity {
 
 	public static void main(String[] args) {
 	
+		
 	int n= 5;
 	int[] lp = new int[n+1];
 	ArrayList<Integer> pr = new ArrayList<>();
