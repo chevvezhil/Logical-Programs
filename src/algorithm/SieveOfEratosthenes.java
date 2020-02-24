@@ -21,17 +21,22 @@ public class SieveOfEratosthenes {
 			
 		}
 		
+		int count =0;
+		
 		for(int i=0;i<=n;i++) {
 			if(visited[i] == true) {
 				System.out.println(i);
+				count++;
 			}
 		}
+		
+		System.out.println("count "  + count);
 	}
 	
 	
 	public static void main(String[] args) {
 		SieveOfEratosthenes se = new SieveOfEratosthenes();
-		se.printPrime(50);
+		se.printPrime(5);
 		
 	}
 	
