@@ -18,6 +18,9 @@ public class ValidPalindrome {
 		System.out.println(s);
 		
 		s = s.replaceAll("[^a-zA-Z]", "").toLowerCase();
+	//	s= s.replaceAll("(\\W)","");
+		
+		System.out.println("string " + s);
 		
 		ValidPalindrome vp = new ValidPalindrome();
 		boolean isPalindrome = vp.isPalindrome(s);
